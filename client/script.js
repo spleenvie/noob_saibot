@@ -75,7 +75,7 @@ function chatStripe(isAi, value, uniqueId){
 
     loader(messageDiv);
 
-    const response = await fetch('https://noob-saibot.onrender.com/', {
+    const response = await fetch('https://noob-saibot.onrender.com/',{
       method: 'POST',
       headers: {
         'Content-Type':'application/json'
